@@ -2,10 +2,38 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## 
+Open the .Net core WebApi application
+
+Build the Application & resolve the conflict if any.
+
+## Open Package Manager Console
+
+Make sure you have selected the project 'Project.DB'
+
+And paste the below cmd in PM>
+
+## PM> ADD-MIGRATION initials4
+
+Build started...
+Build succeeded.
+To undo this action, use Remove-Migration.
+
+And then run the below cmd-
+
+## PM> UPDATE-DATABASE
+
+Build started...
+Build succeeded.
+Applying migration 'xxxxxxxx_initials4'.
+Done.
+
 ## *****
 Open the application
 Goto folder name: product_app
-type >  cd product_app  
+Type cmd if you are in the folder not in >  
+## cd product_app  
 enter
 
 Make sure the localhost/port # is same as the .netcore webappi.
